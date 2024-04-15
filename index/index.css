@@ -25,7 +25,7 @@ header{
     align-items: center;
 }
 header img{
-    width: 80px;
+    
     height: 80px;
 }
 
@@ -39,14 +39,15 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     font-size: 12px;
+    position: sticky;
 }
 nav img {
-    width: 93px;
+    
     height: 47px;
-    border-radius: 356.5px;
+    border-radius: 60px;
 }
 #lupa img{
-    width: 25px;
+    
     height: 25px;
 }
 
@@ -54,12 +55,15 @@ nav img {
 
 .generalBody{
     overflow: hidden;
+    width: auto;
+    margin-left: 64px;
+    margin-right: 64px;
 }
+
 /*about us*/
 .about-us{
-    margin: 56px 128px;
+    margin: 56px 100px;
     background-color: #000000;
-    max-width: 1194px;
     height: 306px;
     color: #FFFFFF;
     border-radius: 64px;
@@ -68,30 +72,31 @@ nav img {
     align-items: center;
 }
 .content-about-us{
-    width: 1012px;
+    width: auto;
     background-color: #414141 ;
     height: 160px;
     border-top-left-radius: 80.5px;
     border-bottom-left-radius: 80.5px;
     display: flex;
+    justify-content: center;
 }
 .img-about-us img{
     width: 170px;
     height: 160px;
     border-radius: 80.5px;   
+    justify-content: start;
 }
 .text-about-us{
     text-align: center;
-    max-width: 768px;
     line-height: 25px;
-    font-size: 5px;
+    font-size: 12px;
     margin-top: 10px;
 }
 .title{
-    font-size: 20px;
+    font-size: 25px;
 }
 .normal-text{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
@@ -106,16 +111,18 @@ nav img {
 
 /* bottom side*/
 .bottom-side-body{
-    width: 1440px;
+    width: auto;
     height: 400px;
     display: flex;
+    justify-content: space-between;
+    
     
 }
 /*recents news body*/
 .recents-news{
-    width: 345px;
+    
     height: 232px;
-    margin: 56px 81px 56px 128px;
+    margin: 56px 81px 56px 81px;
     background-color: #000000;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -127,6 +134,9 @@ nav img {
     color: white;
     font-size: 24px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .content-recentsNew{
@@ -151,5 +161,90 @@ nav img {
     margin: 56px 81px 56px 0px;
     background-color: #000000;
     border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;   
+    border-bottom-right-radius: 7px; 
+    
 }
+.match{
+    height: 100px;
+    border-radius:19px ;
+    background-color: #D9D9D9;
+    margin: 0px 30.5px 0px 30.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shield{
+    height: 85.2px;
+    width: 85.2px;
+    
+}
+.shield img{
+    height:85.2px;
+    width: 85.2px;
+}
+
+.info-match{
+    font-size: 10px;
+    text-align: center;
+}
+#result{
+    font-size: 26px;
+}
+
+
+
+/*on live*/
+.OnLive{
+    width: 345px;
+    height: 232px;
+    margin: 56px 81px 56px 0px;
+    background-color: #000000;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px; 
+}
+.content-onlive{
+    width: 244px;
+    height: 149px;
+    margin: 0px 50.5px 0px 50.5px;
+    color: white;
+}
+.content-onlive img{
+    width: 244px;
+    height: 149px;
+    border-radius:7px ;
+    filter:blur(2px)
+}
+#access{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+#access img{
+    height: 16px;
+    width: 16px;
+}
+
+
+
+/*footer*/
+
+.footer{
+    height: 269px;
+    width: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-footer{
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+    
