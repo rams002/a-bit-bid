@@ -4,6 +4,9 @@
 
 
 /*GLOBALES*/
+a {
+    text-decoration: none;
+}
 * {
     margin: 0;
     padding: 0;
@@ -55,9 +58,8 @@ nav img {
 
 .generalBody{
     overflow: hidden;
-    width: auto;
-    margin-left: 64px;
-    margin-right: 64px;
+    display: grid;
+    place-content: center;
 }
 
 /*about us*/
@@ -72,7 +74,7 @@ nav img {
     align-items: center;
 }
 .content-about-us{
-    width: auto;
+    margin: 50px;
     background-color: #414141 ;
     height: 160px;
     border-top-left-radius: 80.5px;
@@ -239,6 +241,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 .text-footer{
     text-align: center;
