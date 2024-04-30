@@ -34,6 +34,9 @@ header img {
 
     height: 80px;
 }
+header a{
+    color: black;
+}
 
 /*------------NAV-------------*/
 nav {
@@ -53,8 +56,50 @@ nav img {
     height: 47px;
     border-radius: 60px;
 }
-
+nav a{
+    color: #FFFFFF;
+}
 #lupa img {
 
     height: 25px;
 }
+
+
+/*   body   */
+
+
+.generalBody{
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}
+
+/* log */
+.log{
+    margin: 56px 100px;
+    background-color: #000000;
+    border-radius: 64px;
+}
+
+
+/*footer*/
+
+.footer{
+    height: 269px;
+    width: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+.text-footer{
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+    
