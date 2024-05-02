@@ -7,6 +7,8 @@ router
     //
     .get('/', misrutasController.getIndex)
 
-    .get('/sign', misrutasController.getSign);
+    .get('/sign', misrutasController.getSign)
+
+    .get('/login', misrutasController.getLogin);
 
 module.exports = router;

@@ -26,6 +26,7 @@ app.set('views', './src/view');
 // Routes
 app.use('/', misRutas);
 app.use('/sign', misRutas);
+app.use('/login', misRutas);
 
 
 
