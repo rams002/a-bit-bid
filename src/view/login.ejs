@@ -37,14 +37,17 @@
                 </div>
                 <div class="text-about-us">
                     <p class="title">Log in</p>
-                    <form action="">
+                    <% if (mensaje) { %>
+                        <p><%= mensaje %></p>
+                    <% } %>
+                    <form action="/login" method="post">
                         <div class="email-pass-enter">
-                            <input type="email" placeholder="Email Address" class="email-pass">
+                            <input type="text" placeholder="Username" class="email-pass">
                         </div>
                         <div class="email-pass-enter">
                             <input type="password" placeholder="Password" class="email-pass">
                         </div>
-                        <button type="submit" class="button">Log in</button>
+                        <button type="submit" class="button" action="/login">Log in</button>
                     </form>
                     <p class="normal-text">Other methods for Log in</p>
                     

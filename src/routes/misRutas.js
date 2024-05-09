@@ -9,6 +9,12 @@ router
 
     .get('/sign', misrutasController.getSign)
 
-    .get('/login', misrutasController.getLogin);
+    .post('/sign', misrutasController.postSign)
+
+    .get('/login', misrutasController.getLogin)
+
+    .post('/login', misrutasController.postLogin);
+
+    
 
 module.exports = router;
